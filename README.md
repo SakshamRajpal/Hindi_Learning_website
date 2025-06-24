@@ -114,7 +114,7 @@ Millions of non-Hindi speakers, especially those visiting or living in India, st
 hindi-learning-website/
 ├── public/
 │ ├── favicon.ico # Site icon
-| ├── robots.txt
+│ ├── robots.txt
 │ └── manifest.json # Web app manifest
 ├── src/
 │ ├── components/ # Reusable UI components
@@ -131,16 +131,16 @@ hindi-learning-website/
 │ │ ├── Auth.jsx
 │ │ ├── Index.jsx # Homepage with ProgressTracker
 │ │ ├── LessonsBoardPage.jsx # Lessons with video + quiz
-| | ├── LessonsPage.jsx
-| | ├── Login.jsx
-| | ├── NotFound.jsx
-| | ├── practice.jsx
-| | └── Register.jsx
+│ │ ├── LessonsPage.jsx
+│ │ ├── Login.jsx
+│ │ ├── NotFound.jsx
+│ │ ├── practice.jsx
+│ │ └── Register.jsx
 │ ├── data/
 │ │ └── lessonsData.js # Static lesson content
 │ ├── hooks/
 │ │ ├── use-mobile.js 
-| | └── use-toast.js 
+│ │ └── use-toast.js 
 │ ├── App.css
 │ ├── App.jsx # Main app logic and routes
 │ ├── firebase.js
