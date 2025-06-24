@@ -1,7 +1,7 @@
 ## Live Link:- https://hindi-learning-website.vercel.app/ 
 ## Project Repository:- https://github.com/SakshamRajpal/Hindi_Learning_website
 ## Demo Viedeo Link:- 
-## PPT Link:- 
+## PPT Link:- https://drive.google.com/file/d/1ySH3ePEfJ_QSGSmUUqTeNEWbZ7Tq6xcp/view
 ## LinkedIn Post:- 
 
 # HindiSafarSeekho 🇮🇳🗣️
