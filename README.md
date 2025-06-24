@@ -48,7 +48,6 @@ Millions of non-Hindi speakers, especially those visiting or living in India, st
 
 ## 🛠️ System Architecture 
 ```bash
-![image](https://github.com/user-attachments/assets/0b99eec9-4d81-4a90-84cd-ce22701b6962)
 +-----------------------------------+
 |           System Architecture     |
 +-----------------------------------+
@@ -88,11 +87,19 @@ Millions of non-Hindi speakers, especially those visiting or living in India, st
 |  |  |  - User Progress     |  |   |
 |  |  |  - Lesson Data       |  |   |
 |  |  +----------------------+  |   |
+|  |                            |   |
+|  +----------------------------+   |
+|                                   |
+|  +----------------------------+   |
+|  |       Chatbot Services     |   |
+|  |      (Google Dialogflow)   |   |
+|  |                            |   |
 |  |  +----------------------+  |   |
-|  |  |  Realtime Database   |  |   |
-|  |  |  - User Progress     |  |   |
-|  |  |  - Lesson Data       |  |   |
+|  |  |                      |  |   |
+|  |  |                      |  |   |
+|  |  |                      |  |   |
 |  |  +----------------------+  |   |
+|  |                            |   |
 |  +----------------------------+   |
 |                                   |
 +-----------------------------------+
@@ -104,8 +111,8 @@ Millions of non-Hindi speakers, especially those visiting or living in India, st
 ```bash
 hindi-learning-website/
 ├── public/
-│ ├── index.html # Main HTML file
 │ ├── favicon.ico # Site icon
+| ├── robots.txt
 │ └── manifest.json # Web app manifest
 ├── src/
 │ ├── components/ # Reusable UI components
@@ -115,23 +122,36 @@ hindi-learning-website/
 │ │ ├── VideoLesson.jsx
 │ │ ├── Quiz.jsx
 │ │ └── ui/ # Custom UI widgets
-│ │ ├── tabs.jsx
-│ │ └── button.jsx
+│ │    ├── tabs.jsx
+│ │    └── button.jsx
 │ ├── pages/ # Page components
 │ │ ├── Index.jsx # Homepage with ProgressTracker
 │ │ └── LessonsPage.jsx # Lessons with video + quiz
+| | └── LessonsPage.jsx # Lessons with video + quiz
+| | └── LessonsPage.jsx # Lessons with video + quiz
+| | └── LessonsPage.jsx # Lessons with video + quiz
 │ ├── data/
 │ │ └── lessonsData.js # Static lesson content
 │ ├── hooks/
-│ │ └── use-toast.js # Custom toast hook
+│ │ ├── use-mobile.js 
+| | └── use-toast.js 
 │ ├── firebase.js # Firebase setup
+│ ├── firebase.js 
+│ ├── firebase.js
 │ ├── App.jsx # Main app logic and routes
-│ ├── index.js # Entry point for React
-│ └── styles/
-│ └── global.css # Tailwind & global styles
+│ ├── index.html # Entry point for React
+│ └── index.css
+├── .env
+├── .gitignore
+├── components.json
+├── firebase.json
+├── index.html
+├── package-lock.json
 ├── package.json # Project dependencies
+├── tsconfig.app.json 
+├── vite.config.ts 
 ├── tailwind.config.js # Tailwind customization
-└── README.md # Project documentation
+└── README.md 
 ```
 
 ## 🤸 Quick Start:
@@ -147,7 +167,7 @@ Ensure you have the following installed:
 - Firebase setup
 - Firebase project credentials
 - Google Dialogflow
-- ZIP file (for training the chatbot)
+- ZIP file consisting files in JSON format (for training chatbot)
 
 ### 📦 Clone the Repository
 ```bash
