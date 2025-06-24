@@ -1,0 +1,6 @@
+{
+  "description": "HindiSafarSeekho Agent",
+  "language": "en",
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true
+}

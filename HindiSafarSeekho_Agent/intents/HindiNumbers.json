@@ -1,0 +1,86 @@
+{
+  "id": "f4754d41-1a47-4e80-8021-028ba06ed6b9",
+  "name": "projects/hindi-learning/agent/intents/f4754d41-1a47-4e80-8021-028ba06ed6b9",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Here are numbers 1 to 10 in Hindi:\n1 - एक (ek)\n2 - दो (do)\n3 - तीन (teen)\n4 - चार (chaar)\n5 - पाँच (paanch)\n6 - छह (chhah)\n7 - सात (saat)\n8 - आठ (aath)\n9 - नौ (nau)\n10 - दस (das)"
+          ]
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "resetContexts": false
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "Teach me numbers in Hindi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How to say 1 to 10 in Hindi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "What are numbers from 1 to 5 in Hindi?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Tell me Hindi numbers"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Count in Hindi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "templates": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "mlEnabled": true,
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "inputContextNames": [],
+  "outputContexts": [],
+  "displayName": "HindiNumbers",
+  "rootFollowupIntentName": "",
+  "parentFollowupIntentName": ""
+}

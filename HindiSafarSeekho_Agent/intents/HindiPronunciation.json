@@ -1,0 +1,86 @@
+{
+  "id": "343b6afd-0864-4e16-bdc9-82d5ec93bd18",
+  "name": "projects/hindi-learning/agent/intents/343b6afd-0864-4e16-bdc9-82d5ec93bd18",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Here are some pronunciation tips:\n- नमस्ते: 'nuh-muh-stay'\n- धन्यवाद: 'dhun-yuh-vaad'\n- शुभ रात्रि: 'shubh raatri'\nTry listening to native speakers for better accuracy!"
+          ]
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "resetContexts": false
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "How to pronounce नमस्ते?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How to say धन्यवाद?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Pronounce शुभ रात्रि"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Help me with pronunciation"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Teach me Hindi pronunciation"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "templates": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "mlEnabled": true,
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "inputContextNames": [],
+  "outputContexts": [],
+  "displayName": "HindiPronunciation",
+  "rootFollowupIntentName": "",
+  "parentFollowupIntentName": ""
+}

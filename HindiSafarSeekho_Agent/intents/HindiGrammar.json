@@ -1,0 +1,86 @@
+{
+  "id": "9b36a027-4d96-4808-b987-6e686486efef",
+  "name": "projects/hindi-learning/agent/intents/9b36a027-4d96-4808-b987-6e686486efef",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hindi Grammar Tip:\n- 'है' is used for singular subjects (he/she/it).\n- 'हैं' is used for plural subjects or respectful tone.\nExample: वह अच्छा है (He is good), वे अच्छे हैं (They are good)."
+          ]
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "resetContexts": false
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "What is the difference between है and हैं?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "When to use है in Hindi?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Explain Hindi sentence structure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Hindi verb agreement rules"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Teach me Hindi grammar basics"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "templates": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "mlEnabled": true,
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "inputContextNames": [],
+  "outputContexts": [],
+  "displayName": "HindiGrammar",
+  "rootFollowupIntentName": "",
+  "parentFollowupIntentName": ""
+}

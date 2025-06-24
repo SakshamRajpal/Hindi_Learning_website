@@ -1,0 +1,86 @@
+{
+  "id": "fe8cc0c3-caf0-4e42-a8fb-4b370e4585fd",
+  "name": "projects/hindi-learning/agent/intents/fe8cc0c3-caf0-4e42-a8fb-4b370e4585fd",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Here are common Hindi greetings:\n👋 Hello: नमस्ते (Namaste)\n👋 Goodbye: अलविदा (Alvida)\n🙏 Thank you: धन्यवाद (Dhanyavaad)\n🌅 Good morning: सुप्रभात (Suprabhaat)\n🌙 Good night: शुभ रात्रि (Shubh Raatri)"
+          ]
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "resetContexts": false
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "How do you say hello in Hindi?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "What is the Hindi word for goodbye?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How to say thank you in Hindi?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Translate good morning to Hindi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Teach me common Hindi greetings"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "templates": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "mlEnabled": true,
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "inputContextNames": [],
+  "outputContexts": [],
+  "displayName": "HindiGreetings",
+  "rootFollowupIntentName": "",
+  "parentFollowupIntentName": ""
+}

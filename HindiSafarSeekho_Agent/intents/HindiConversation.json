@@ -1,0 +1,86 @@
+{
+  "id": "6477755c-f5ce-4f3e-9672-8b2fce824e02",
+  "name": "projects/hindi-learning/agent/intents/6477755c-f5ce-4f3e-9672-8b2fce824e02",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "👤 A: नमस्ते, आप कैसे हैं?\n👥 B: मैं ठीक हूँ, धन्यवाद। और आप?\n👤 A: मैं भी ठीक हूँ।\nTranslation:\nA: Hello, how are you?\nB: I'm fine, thank you. And you?\nA: I'm good too."
+          ]
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "resetContexts": false
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "Teach me a short Hindi conversation"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Example of a Hindi dialogue"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Simple Hindi greeting conversation"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Small talk in Hindi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Show me conversation between two people"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "templates": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "mlEnabled": true,
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "inputContextNames": [],
+  "outputContexts": [],
+  "displayName": "HindiConversation",
+  "rootFollowupIntentName": "",
+  "parentFollowupIntentName": ""
+}
