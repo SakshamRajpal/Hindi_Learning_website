@@ -1,1 +1,203 @@
+🔗 [Live Site](https://hindi-learning-website.vercel.app/)  
+📂 [Project Repository](https://github.com/SakshamRajpal/Hindi_Learning_website)
+
+# HindiSafarSeekho 🇮🇳🗣️
+
+A culturally-aware and conversational Hindi learning platform for non-Hindi speakers—tourists, students, and expats in India.
+
+---
+
+## 📌 Problem Statement
+
+Millions of non-Hindi speakers, especially those visiting or living in India, struggle with conversational Hindi. Existing tools are often too generic, grammar-heavy, or detached from real-life cultural context—making practical communication difficult.
+
+---
+
+## 🎯 Project Overview
+
+**HindiSafarSeekho** is a modern, interactive web platform designed to help non-Hindi speakers learn useful, everyday Hindi in a fun and engaging way.
+
+### ✨ Key Features
+
+- 🏠 **Home Page**: Welcome screen with introduction and navigation
+- 📚 **Lesson Page**: Structured tutorials and quick quizzes to reinforce learning
+- 🔤 **Alphabet Page**: Learn the Hindi script with visual and audio support
+- 📝 **Practice Page**: Attempt mock quizzes and track your improvement
+- 🏆 **Leaderboard Page**: View quiz streaks and compare your progress with others
+- 🔐 **Login/Register**: Secure authentication using Firebase
+- 🤖 **AI Chatbot**: Google Dialogflow-based chatbot to assist with:
+  - Sentence formation  
+  - Vocabulary enhancement  
+  - Basic conversational practice  
+- 🗣️ **Text-to-Speech**: Audio playback for pronunciation help
+- 💬 **Phrase Bank**: Daily-use conversational phrases with transliteration
+
+---
+
+## 🛠️ Tech Stack
+
+| Frontend       | Backend & Auth | AI & Tools                  |
+|----------------|----------------|-----------------------------|
+| React + Vite   | Firebase       | Google Dialogflow Chatbot   |
+| TailwindCSS    | Firestore DB   | Text-to-Speech APIs         |
+
+---
+
+## 🛠️ System Architecture 
+```bash
+![image](https://github.com/user-attachments/assets/0b99eec9-4d81-4a90-84cd-ce22701b6962)
++-----------------------------------+
+|           System Architecture     |
++-----------------------------------+
+|                                   |
+|  +----------------------------+   |
+|  |       Client Side          |   |
+|  |  (React Web Application)   |   |
+|  |                            |   |
+|  |  +----------------------+  |   |
+|  |  |  User Interface      |  |   |
+|  |  |  - Navbar            |  |   |
+|  |  |  - Footer            |  |   |
+|  |  |  - LessonsPage       |  |   |
+|  |  |  - ProgressTracker   |  |   |
+|  |  |  - VideoLesson       |  |   |
+|  |  |  - Quiz              |  |   |
+|  |  +----------------------+  |   |
+|  |                            |   |
+|  |  +----------------------+  |   |
+|  |  |  State Management    |  |   |
+|  |  |  - React Hooks       |  |   |
+|  |  |  - Context API       |  |   |
+|  |  +----------------------+  |   |
+|  +----------------------------+   |
+|                                   |
+|  +----------------------------+   |
+|  |       Backend Services     |   |
+|  |  (Firebase)                |   |
+|  |                            |   |
+|  |  +----------------------+  |   |
+|  |  |  Authentication     |   |   |
+|  |  |  - Email/Password   |   |   |
+|  |  |  - Google Sign-in   |   |   |
+|  |  +----------------------+  |   |
+|  |  +----------------------+  |   |
+|  |  |  Realtime Database  |   |   |
+|  |  |  - User Progress    |   |   |
+|  |  |  - Lesson Data      |   |   |
+|  |  +----------------------+  |   |
+|  +----------------------------+   |
+|                                   |
++-----------------------------------+
+```
+
+
+
+## 📁 Project Structure
+```bash
+hindi-learning-website/
+├── public/
+│ ├── index.html # Main HTML file
+│ ├── favicon.ico # Site icon
+│ └── manifest.json # Web app manifest
+├── src/
+│ ├── components/ # Reusable UI components
+│ │ ├── Navbar.jsx
+│ │ ├── Footer.jsx
+│ │ ├── ProgressTracker.jsx
+│ │ ├── VideoLesson.jsx
+│ │ ├── Quiz.jsx
+│ │ └── ui/ # Custom UI widgets
+│ │ ├── tabs.jsx
+│ │ └── button.jsx
+│ ├── pages/ # Page components
+│ │ ├── Index.jsx # Homepage with ProgressTracker
+│ │ └── LessonsPage.jsx # Lessons with video + quiz
+│ ├── data/
+│ │ └── lessonsData.js # Static lesson content
+│ ├── hooks/
+│ │ └── use-toast.js # Custom toast hook
+│ ├── firebase.js # Firebase setup
+│ ├── App.jsx # Main app logic and routes
+│ ├── index.js # Entry point for React
+│ └── styles/
+│ └── global.css # Tailwind & global styles
+├── package.json # Project dependencies
+├── tailwind.config.js # Tailwind customization
+└── README.md # Project documentation
+```
+
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+- Node.js and npm
+- Firebase project credentials
+- Google Dialogflow agent ZIP (for chatbot setup)
+
+## 🤸 Quick Start:
+
+Follow these steps to get the project running locally.
+
+### 🔧 Prerequisites
+
+Ensure you have the following installed:
+- Git
+- Node.js
+- npm (Node Package Manager)
+
+### 📦 Clone the Repository
+```bash
+git clone https://github.com/SakshamRajpal/Your_Care.git
+cd Your_Care
+```
+
+
+### 📥 Install Dependencies
+```bash
+npm install
+```
+
+### 🔐 Set Up Environment Variables
+- Create a .env.local file in the root directory:
+```bash
+# APPWRITE
+NEXT_PUBLIC_ENDPOINT=https://cloud.appwrite.io/v1
+PROJECT_ID=
+API_KEY=
+DATABASE_ID=
+PATIENT_COLLECTION_ID=
+APPOINTMENT_COLLECTION_ID=
+NEXT_PUBLIC_BUCKET_ID=
+NEXT_PUBLIC_ADMIN_PASSKEY=123456
+NEXT_SENTRY_AUTH=
+Replace the placeholders with your actual Appwrite credentials.
+```
+
+###  ▶️ Run the Development Server
+```bash
+npm run dev
+```
+Visit http://localhost:3000 in your browser.
+
+---
+
+## 🌐 Live Demo:
+> 🚀 [Click here to try SecureSync](https://secure-sync-by-saksham.onrender.com/)
+
+---
+
+
+## 🙌 Acknowledgements
+- Google Dialogflow for chatbot integration
+- Firebase for authentication and real-time data handling
+- Vercel for deployment
+
+---
+
+## 🤝 Contributing:
+
+- Found a bug or want to contribute?
+- Feel free to fork the repo, make changes, and open a pull request.
+- ⭐ If you like this project, consider giving it a star!
 
