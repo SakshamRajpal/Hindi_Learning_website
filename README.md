@@ -1,5 +1,8 @@
-🔗 [Live Site](https://hindi-learning-website.vercel.app/)  
-📂 [Project Repository](https://github.com/SakshamRajpal/Hindi_Learning_website)
+## Live Link:- https://hindi-learning-website.vercel.app/ 
+## Project Repository:- https://github.com/SakshamRajpal/Hindi_Learning_website
+## Demo Viedeo Link:- 
+## PPT Link:- 
+## LinkedIn Post:- 
 
 # HindiSafarSeekho 🇮🇳🗣️
 
@@ -73,17 +76,22 @@ Millions of non-Hindi speakers, especially those visiting or living in India, st
 |                                   |
 |  +----------------------------+   |
 |  |       Backend Services     |   |
-|  |  (Firebase)                |   |
+|  |         (Firebase)         |   |
 |  |                            |   |
 |  |  +----------------------+  |   |
-|  |  |  Authentication     |   |   |
-|  |  |  - Email/Password   |   |   |
-|  |  |  - Google Sign-in   |   |   |
+|  |  |  Authentication      |  |   |
+|  |  |  - Email/Password    |  |   |
+|  |  |  - Google Sign-in    |  |   |
 |  |  +----------------------+  |   |
 |  |  +----------------------+  |   |
-|  |  |  Realtime Database  |   |   |
-|  |  |  - User Progress    |   |   |
-|  |  |  - Lesson Data      |   |   |
+|  |  |  Realtime Database   |  |   |
+|  |  |  - User Progress     |  |   |
+|  |  |  - Lesson Data       |  |   |
+|  |  +----------------------+  |   |
+|  |  +----------------------+  |   |
+|  |  |  Realtime Database   |  |   |
+|  |  |  - User Progress     |  |   |
+|  |  |  - Lesson Data       |  |   |
 |  |  +----------------------+  |   |
 |  +----------------------------+   |
 |                                   |
@@ -126,15 +134,6 @@ hindi-learning-website/
 └── README.md # Project documentation
 ```
 
-
-## 🚀 Getting Started
-
-### 🔧 Prerequisites
-
-- Node.js and npm
-- Firebase project credentials
-- Google Dialogflow agent ZIP (for chatbot setup)
-
 ## 🤸 Quick Start:
 
 Follow these steps to get the project running locally.
@@ -145,6 +144,10 @@ Ensure you have the following installed:
 - Git
 - Node.js
 - npm (Node Package Manager)
+- Firebase setup
+- Firebase project credentials
+- Google Dialogflow
+- ZIP file (for training the chatbot)
 
 ### 📦 Clone the Repository
 ```bash
@@ -161,32 +164,24 @@ npm install
 ### 🔐 Set Up Environment Variables
 - Create a .env.local file in the root directory:
 ```bash
-# APPWRITE
-NEXT_PUBLIC_ENDPOINT=https://cloud.appwrite.io/v1
-PROJECT_ID=
-API_KEY=
-DATABASE_ID=
-PATIENT_COLLECTION_ID=
-APPOINTMENT_COLLECTION_ID=
-NEXT_PUBLIC_BUCKET_ID=
-NEXT_PUBLIC_ADMIN_PASSKEY=123456
-NEXT_SENTRY_AUTH=
-Replace the placeholders with your actual Appwrite credentials.
+VITE_FIREBASE_API_KEY=
+VITE_FIREBASE_AUTH_DOMAIN=
+VITE_FIREBASE_PROJECT_ID=
+VITE_FIREBASE_STORAGE_BUCKET=
+VITE_FIREBASE_MESSAGING_SENDER_ID=
+VITE_FIREBASE_APP_ID=
+VITE_FIREBASE_MEASUREMENT_ID=
+VITE_DIALOG_AGENT_ID=
+Replace the placeholders with your actual Firebase and GoogleDialog credentials.
 ```
 
 ###  ▶️ Run the Development Server
 ```bash
 npm run dev
 ```
-Visit http://localhost:3000 in your browser.
+Visit http://localhost:8080 in your browser.
 
 ---
-
-## 🌐 Live Demo:
-> 🚀 [Click here to try SecureSync](https://secure-sync-by-saksham.onrender.com/)
-
----
-
 
 ## 🙌 Acknowledgements
 - Google Dialogflow for chatbot integration
