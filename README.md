@@ -1,8 +1,8 @@
 ## Live Link:- https://hindi-learning-website.vercel.app/ 
 ## Project Repository:- https://github.com/SakshamRajpal/Hindi_Learning_website
-## Demo Viedeo Link:- https://www.youtube.com/watch?v=pj3ur1EBI_U
+## Demo Video Link:- https://www.youtube.com/watch?v=pj3ur1EBI_U
 ## PPT Link:- https://drive.google.com/file/d/1ySH3ePEfJ_QSGSmUUqTeNEWbZ7Tq6xcp/view
-## LinkedIn Post:- 
+## LinkedIn Post:- https://www.linkedin.com/posts/jagjeet-singh-b28097271_codeclash-hindilearning-edtech-activity-7343251785639149568-dT9G?utm_source=share&utm_medium=member_android&rcm=ACoAADmGCQQBWt1CDoyVa2HOJKCIVCfvnPyqsHs
 
 # HindiSafarSeekho 🇮🇳🗣️
 
@@ -30,9 +30,9 @@ Millions of non-Hindi speakers, especially those visiting or living in India, st
 - 🏆 **Leaderboard Page**: View quiz streaks and compare your progress with others
 - 🔐 **Login/Register**: Secure authentication using Firebase
 - 🤖 **AI Chatbot**: Google Dialogflow-based chatbot to assist with:
-  - Sentence formation  
-  - Vocabulary enhancement  
-  - Basic conversational practice  
+  - Sentence formation(Example Question:- Hindi greetings)  
+  - Vocabulary enhancement(Example Question:- Hindi Verbs and Nouns)   
+  - Basic conversational practice(Example Question:- Hindi Numbers from 1 to 10)   
 - 🗣️ **Text-to-Speech**: Audio playback for pronunciation help
 - 💬 **Phrase Bank**: Daily-use conversational phrases with transliteration
 
