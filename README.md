@@ -8,6 +8,7 @@
 
 A culturally-aware and conversational Hindi learning platform for non-Hindi speakers—tourists, students, and expats in India.
 
+![Screenshot 2025-06-24 125719](https://github.com/user-attachments/assets/cffdeb76-9dbc-47ed-a8e9-d68e070ec629)
 ---
 
 ## 📌 Problem Statement
@@ -95,9 +96,10 @@ Millions of non-Hindi speakers, especially those visiting or living in India, st
 |  |      (Google Dialogflow)   |   |
 |  |                            |   |
 |  |  +----------------------+  |   |
-|  |  |                      |  |   |
-|  |  |                      |  |   |
-|  |  |                      |  |   |
+|  |  |   DialogflowChatbot  |  |   |
+|  |  |   - Creating Agent   |  |   |
+|  |  |   - Training Agent   |  |   |
+|  |  |     (Based on JSON)  |  |   |
 |  |  +----------------------+  |   |
 |  |                            |   |
 |  +----------------------------+   |
@@ -125,22 +127,25 @@ hindi-learning-website/
 │ │    ├── tabs.jsx
 │ │    └── button.jsx
 │ ├── pages/ # Page components
+│ │ ├── AlphabetPage.jsx
+│ │ ├── Auth.jsx
 │ │ ├── Index.jsx # Homepage with ProgressTracker
-│ │ └── LessonsPage.jsx # Lessons with video + quiz
-| | └── LessonsPage.jsx # Lessons with video + quiz
-| | └── LessonsPage.jsx # Lessons with video + quiz
-| | └── LessonsPage.jsx # Lessons with video + quiz
+│ │ ├── LessonsBoardPage.jsx # Lessons with video + quiz
+| | ├── LessonsPage.jsx
+| | ├── Login.jsx
+| | ├── NotFound.jsx
+| | ├── practice.jsx
+| | └── Register.jsx
 │ ├── data/
 │ │ └── lessonsData.js # Static lesson content
 │ ├── hooks/
 │ │ ├── use-mobile.js 
 | | └── use-toast.js 
-│ ├── firebase.js # Firebase setup
-│ ├── firebase.js 
-│ ├── firebase.js
+│ ├── App.css
 │ ├── App.jsx # Main app logic and routes
-│ ├── index.html # Entry point for React
-│ └── index.css
+│ ├── firebase.js
+│ ├── index.css
+│ └── main.tsx
 ├── .env
 ├── .gitignore
 ├── components.json
@@ -171,8 +176,8 @@ Ensure you have the following installed:
 
 ### 📦 Clone the Repository
 ```bash
-git clone https://github.com/SakshamRajpal/Your_Care.git
-cd Your_Care
+git clone https://github.com/SakshamRajpal/Hindi_Learning_website.git
+cd Hindi_Learning_website
 ```
 
 
